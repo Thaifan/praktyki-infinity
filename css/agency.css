@@ -236,6 +236,20 @@ header.masthead .intro-text .intro-heading {
   text-transform: none;
 }
 
+.quote-mark {
+  top: -16px;
+  left: -32px;
+  position: absolute;
+  font-size: 4em;
+  line-height: normal;
+  font-weight: 600;
+}
+
+.section-description {
+  letter-spacing: -0.25px;
+  color: #3c3c3c;
+}
+
 #portfolio .portfolio-item {
   right: 0;
   margin: 0 0 15px;
