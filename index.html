@@ -26,37 +26,37 @@
 
 <!-- Navigation -->
 <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
-    <div class="container">
+    <div class="container menu-width">
 
         <a class="navbar-brand js-scroll-trigger" href="#page-top" style="position: absolute">
             <img src="img/logos/infinity_group_logo.png" style="width: 70px">
         </a>
-                <div class="collapse navbar-collapse" id="navbarResponsive">
-                    <ul class="navbar-nav text-uppercase m-auto">
-                        <li class="nav-item">
-                            <a class="nav-link js-scroll-trigger" href="#mission">Mission</a>
-                        </li>
-                        <li class="nav-item">
-                            <div class="nav-spacer"></div>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link js-scroll-trigger" href="#clients">Clients</a>
-                        </li>
-                        <li class="nav-item">
-                            <div class="nav-spacer"></div>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link js-scroll-trigger" href="#products">Products</a>
-                        </li>
-                        <li class="nav-item">
-                            <div class="nav-spacer"></div>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
-                        </li>
-                    </ul>
-                </div>
 
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav text-uppercase m-auto">
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="#mission">Mission</a>
+                </li>
+                <li class="nav-item">
+                    <div class="nav-spacer"></div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="#clients">Clients</a>
+                </li>
+                <li class="nav-item">
+                    <div class="nav-spacer"></div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="#products">Products</a>
+                </li>
+                <li class="nav-item">
+                    <div class="nav-spacer"></div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
 
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
                 data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
@@ -64,9 +64,6 @@
             Menu
             <i class="fa fa-bars"></i>
         </button>
-
-        </div>
-
 
     </div>
 </nav>
@@ -85,8 +82,11 @@
 <section id="mission">
     <div class="container">
         <div class="row justify-content-center">
-            <div class="col-md-8">
-                <h2 class="section-heading text-center">Mission</h2>
+            <div class="col-md-12 text-center">
+                <h2 class="section-heading">Mission</h2>
+            </div>
+            <div class="w-100"></div>
+            <div class="col-md-8 text-left">
                 <div style="position: relative">
                     <span class="quote-mark">&rdquo;</span>
                     <p class="section-description">Lorem ipsum dolor sit amet, consectetur adipiscing
@@ -105,11 +105,25 @@
 <!-- Clients -->
 <section class="bg-light" id="clients">
     <div class="container">
-        <div class="row">
-            <div class="col-md-10">
-                <h2 class="section-heading text-center">Clients</h2>
-                <p class="section-description text-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                    eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        <div class="row justify-content-center">
+            <div class="col-md-12 text-center">
+                <h2 class="section-heading ">Clients</h2>
+            </div>
+            <div class="w-100"></div>
+            <div class="col-md-4 text-right">
+                <img src="img/clients/tablet.png" style="max-width: 100%">
+            </div>
+            <div class="col-md-6 text-left">
+                <div class="position-relative">
+                    <span class="quote-mark position-absolute">&rdquo;</span>
+                    <p class="section-description ">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                        eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <p style="font-weight: 300; font-size: 22px">Project Manager / Infinity Group</p>
+                    <span class="tag">web desingn</span>
+                    <span class="tag">usability</span>
+                    <span class="tag">e-commerce</span>
+
+                </div>
             </div>
         </div>
     </div>
@@ -118,10 +132,35 @@
 <!-- Products -->
 <section id="products">
     <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-12 text-center">
+                <h2 class="section-heading ">Products</h2>
+            </div>
+            <div class="w-100"></div>
+            <div class="col-md-8 text-center">
+                <span class="section-description ">Sed ut perspiciatis unde omnis iste natus error sit voluptatem</span>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Map -->
+<section id="map">
+    <div class="container">
         <div class="row">
-            <div class="col-lg-12 text-left">
-                <h2 class="section-heading">Products</h2>
-                <span class="section-description">Sed ut perspiciatis unde omnis iste natus error sit voluptatem</span>
+            <div class="offset-md-2 col-md-4 text-left ">
+                <address>
+                    <span class="company-header d-block"> Infinity Group Sp. z o.o.</span>
+                    <p class="d-block">
+                        ul. Skladowa 12, </br>
+                       15-399 Bialystok,</br>
+                       Polska.
+                    </p>
+
+                    <p class="d-block">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                </address>
+
+
             </div>
         </div>
     </div>
@@ -130,9 +169,18 @@
 <!-- Contact -->
 <section id="contact">
     <div class="container">
-        <div class="row">
-            <div class="col-lg-12 text-left">
-                <h2 class="section-heading">Contact</h2>
+        <div class="row justify-content-center">
+            <div class="col-md-10 d-flex justify-content-between">
+                <div>
+                    <h2 class="section-heading">Contact</h2>
+                </div>
+                <div class="contact-button">
+                    <button type="button" class="btn btn-primary">Let us know how to contact You <span style="margin-left: 16px">&uarr;</span></button>
+                </div>
+
+            </div>
+            <div class="w-100"></div>
+            <div class="col-md-8 text-left">
                 <span class="section-description">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae.</span>
             </div>
         </div>
@@ -142,81 +190,14 @@
 <!-- Footer -->
 <footer>
     <div class="container">
-        <div class="row">
-            <div class="col-md-4">
-                <span class="copyright">Copyright &copy; Your Website 2018</span>
-            </div>
-            <div class="col-md-4">
-                <ul class="list-inline social-buttons">
-                    <li class="list-inline-item">
-                        <a href="#">
-                            <i class="fa fa-twitter"></i>
-                        </a>
-                    </li>
-                    <li class="list-inline-item">
-                        <a href="#">
-                            <i class="fa fa-facebook"></i>
-                        </a>
-                    </li>
-                    <li class="list-inline-item">
-                        <a href="#">
-                            <i class="fa fa-linkedin"></i>
-                        </a>
-                    </li>
-                </ul>
-            </div>
-            <div class="col-md-4">
-                <ul class="list-inline quicklinks">
-                    <li class="list-inline-item">
-                        <a href="#">Privacy Policy</a>
-                    </li>
-                    <li class="list-inline-item">
-                        <a href="#">Terms of Use</a>
-                    </li>
-                </ul>
+        <div class="row justify-content-center">
+            <div class="col-md-10">
+                <p class="copyright">&copy; Copyright 2018 IG </br>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et. </p>
             </div>
         </div>
     </div>
 </footer>
-
-<!-- Portfolio Modals -->
-<!-- Modal 1 -->
-<div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl"></div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 mx-auto">
-                        <div class="modal-body">
-                            <!-- Project Details Go Here -->
-                            <h2 class="text-uppercase">Project Name</h2>
-                            <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                            <img class="img-fluid d-block mx-auto" src="img/portfolio/01-full.jpg" alt="">
-                            <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur
-                                adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt
-                                repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae,
-                                nostrum, reiciendis facere nemo!</p>
-                            <ul class="list-inline">
-                                <li>Date: January 2017</li>
-                                <li>Client: Threads</li>
-                                <li>Category: Illustration</li>
-                            </ul>
-                            <button class="btn btn-primary" data-dismiss="modal" type="button">
-                                <i class="fa fa-times"></i>
-                                Close Project
-                            </button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
 
 <!-- Bootstrap core JavaScript -->
 <script src="vendor/jquery/jquery.min.js"></script>

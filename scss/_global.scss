@@ -25,7 +25,6 @@ h3,
 h4,
 h5,
 h6 {
-  font-weight: 400;
   @include heading-font;
 }
 
@@ -55,11 +54,11 @@ section {
 // Button Styles
 .btn {
   @include heading-font;
-  font-weight: 700;
+  font-size: 22px;
 }
 
 .btn-xl {
-  font-size: 18px;
+
   padding: 20px 40px;
 }
 
