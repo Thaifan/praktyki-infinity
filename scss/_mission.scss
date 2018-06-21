@@ -1,13 +1,14 @@
 // Styling for the services section
-section #mission {
+#mission {
   .service-heading {
     margin: 50px 0;
     text-transform: none;
   }
   .quote-mark {
+    position: absolute;
     top: -16px;
     left: -32px;
-    position: absolute;
+
     font-size: 4em;
     line-height: normal;
     font-weight: 600;

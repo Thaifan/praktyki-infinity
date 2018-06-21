@@ -233,27 +233,28 @@ header.masthead .intro-text .intro-heading {
   }
 }
 
-section #mission .service-heading {
+#mission .service-heading {
   margin: 50px 0;
   text-transform: none;
 }
 
-section #mission .quote-mark {
+#mission .quote-mark {
+  position: absolute;
   top: -16px;
   left: -32px;
-  position: absolute;
   font-size: 4em;
   line-height: normal;
   font-weight: 600;
 }
 
-section #mission .section-description {
+#mission .section-description {
   letter-spacing: -0.25px;
   color: #3c3c3c;
 }
 
 #clients {
   background-image: url("/img/clients-bg.jpg");
+  background-size: cover;
   font-family: 'Mada', sans-serif;
 }
 
@@ -262,6 +263,7 @@ section #mission .section-description {
 }
 
 #clients .quote-mark {
+  position: absolute;
   top: -16px;
   left: -32px;
   font-size: 4em;
@@ -286,14 +288,52 @@ section #mission .section-description {
   margin-right: 1px;
 }
 
-#products .btn {
-  font-size: 1.5em;
+#products .col-md-4 .product-item, #products .col-md-2 .product-item {
+  padding: 3em 1em 1em 1em;
+  cursor: pointer;
+  transition: all .2s ease-in-out;
+}
+
+#products .col-md-4 .product-item img, #products .col-md-2 .product-item img {
+  max-width: 100%;
+}
+
+#products .col-md-4 .product-item p, #products .col-md-2 .product-item p {
+  display: none;
+  font-family: 'Mada', sans-serif;
+  font-size: 14px;
+  line-height: 18px;
+  color: #fff;
+  letter-spacing: -0.25px;
+  padding: 3em 0 0 0;
+}
+
+#products .col-md-4:hover, #products .col-md-2:hover {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+#products .col-md-4:hover .product-item, #products .col-md-2:hover .product-item {
+  position: absolute;
+  background-color: #62c017;
+  z-index: 1000;
+}
+
+#products .col-md-4:hover .product-item img, #products .col-md-2:hover .product-item img {
+  -webkit-filter: invert(100%);
+  filter: invert(100%);
+  padding: 0 15px;
+}
+
+#products .col-md-4:hover .product-item p, #products .col-md-2:hover .product-item p {
+  display: block;
 }
 
 #map {
   background-image: url("/img/map-bg.jpg");
   background-repeat: no-repeat;
   background-position: bottom right;
+  background-size: cover;
   font-size: 22px;
   font-weight: 300;
 }

@@ -1,13 +1,16 @@
 // Styling for the portfolio section
 #clients {
   background-image: url("/img/clients-bg.jpg");
+  background-size: cover;
   @include body-font;
   .section-heading {
     color: #ffffff;
   }
   .quote-mark {
+    position: absolute;
     top: -16px;
     left: -32px;
+
     font-size: 4em;
     line-height: normal;
     font-weight: 600;

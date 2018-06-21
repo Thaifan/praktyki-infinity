@@ -1,9 +1,50 @@
 // Styling for the timeline section
 #products {
-  .btn {
-    font-size: 1.5em;
+  .col-md-4, .col-md-2 {
 
+    .product-item {
+      padding: 3em 1em 1em 1em;
+      cursor: pointer;
+      transition: all .2s ease-in-out;
+      img {
+        max-width: 100%;
+      }
+
+      p{
+        display: none;
+        @include body-font;
+        font-size: 14px;
+        line-height: 18px;
+        color: $white;
+        letter-spacing: -0.25px;
+        padding: 3em 0 0 0;
+      }
+
+    }
+
+    &:hover {
+      padding-left: 0;
+      padding-right: 0;
+
+      .product-item {
+        position: absolute;
+        background-color: $primary;
+        z-index: 1000;
+
+        img {
+          -webkit-filter: invert(100%);
+          filter: invert(100%);
+          padding: 0 15px;
+        }
+
+        p {
+          display: block;
+        }
+      }
+    }
   }
+
+
 
 }
 @media(min-width:768px) {
