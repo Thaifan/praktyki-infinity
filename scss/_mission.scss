@@ -17,4 +17,41 @@
     letter-spacing: -0.25px;
     color: #3c3c3c;
   }
+
+  .section-number {
+    position: absolute;
+    top: 40%;
+    right: 0;
+    padding: 2rem;
+    @include heading-font;
+    font-size: 19px;
+    border-bottom: 1px solid;
+  }
+
+}
+
+#cookies-information {
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  color: #fff;
+  background-color: rgba(34,34,34,0.83);
+  z-index: 1000;
+  padding: 2em;
+  p {
+    @include body-font;
+    font-weight: 300;
+    font-size: 14px;
+    margin: 0;
+  }
+  button {
+    @include body-font;
+    font-weight: 300;
+    font-size: 14px;
+  }
+
+  .btn-sm {
+    padding: .05rem .5rem !important;
+  }
+
 }
