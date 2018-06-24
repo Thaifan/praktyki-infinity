@@ -285,7 +285,7 @@ html {
 }
 
 #clients {
-  background-image: url("/img/clients-bg.jpg");
+  background-image: url("../img/clients-bg.jpg");
   background-size: cover;
 }
 
@@ -402,7 +402,7 @@ html {
   letter-spacing: -0.015rem;
   font-size: 1.375rem;
   padding: 7.5rem 0;
-  background-image: url("/img/map-bg.jpg");
+  background-image: url("../img/map-bg.jpg");
   background-repeat: no-repeat;
   background-position: center right;
   background-size: cover;
