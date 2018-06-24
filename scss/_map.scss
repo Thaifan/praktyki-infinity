@@ -1,11 +1,18 @@
 #map {
+  @include body-font;
+  font-size: 1.375rem;
+
+  padding: 7.5rem 0 ;
+
   background-image: url("/img/map-bg.jpg");
   background-repeat: no-repeat;
-  //background-attachment: fixed;
-  background-position: bottom right;
+  background-position: center right;
   background-size: cover;
-  font-size: 22px;
-  font-weight: 300;
+
+  p{
+    padding-right: 1rem;
+  }
+
   .company-header {
     font-weight: 400;
   }

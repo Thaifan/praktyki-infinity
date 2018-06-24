@@ -1,45 +1,45 @@
 // Styling for the contact section
 #contact {
-  .btn {
-    &:focus, &:active, &:hover {
-      -webkit-box-shadow: none;
-      box-shadow: none;
+  padding: 5rem 0 ;
+  @include body-font;
+
+  section {
+    .section-description {
+      color: #373737;
     }
   }
 
   form {
-
-    .form-group {
+    .form-group-inline {
       display: inline-flex;
       align-items: center;
       padding-bottom: 0;
       padding-top: 0;
 
       label {
-        @include body-font;
-        font-size: 24px;
-        font-weight: 300;
-
+        font-size: 1.875rem;
+        margin: 0 .4rem;
       }
 
       input {
+        @include body-font;
         border-top: 0;
         border-left: 0;
         border-right: 0;
         border-bottom: 1px solid;
         border-radius: 0;
+        padding-bottom: 0;
+        padding-top: 0;
 
         &:focus, &:active, &:hover {
           -webkit-box-shadow: none;
           box-shadow: none;
         }
-
-
       }
 
       ::placeholder {
-        font-size: 14px;
-        font-weight: 300;
+        @include body-font;
+        font-size: 0.875rem;
       }
 
       .form-control {
@@ -47,9 +47,15 @@
         width: auto;
       }
       .form-check-label {
-        font-size: 18px;
+        font-size: 1.125rem;
       }
     }
   }
 
+  .btn {
+    &:focus, &:active, &:hover {
+      -webkit-box-shadow: none;
+      box-shadow: none;
+    }
+  }
 }

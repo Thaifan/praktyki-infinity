@@ -1,35 +1,56 @@
-// Styling for the portfolio section
 #clients {
   background-image: url("/img/clients-bg.jpg");
   background-size: cover;
-  @include body-font;
+
   .section-heading {
     color: #ffffff;
   }
-  .quote-mark {
-    position: absolute;
-    top: -16px;
-    left: -32px;
 
-    font-size: 4em;
-    line-height: normal;
-    font-weight: 600;
-  }
-  .section-description {
-    letter-spacing: -0.25px;
-    color: #3c3c3c;
-    font-size: 30px;
-    font-weight: 300;
-    margin-bottom: 15px;
+  .clients-info {
+    position: relative;
+    margin: 1rem 0 4rem 0;
+
+    .quote-mark {
+      position: absolute;
+      top: -1rem;
+      left: -3rem;
+      font-size: 3.75rem;
+      line-height: normal;
+      font-weight: 900;
+    }
+    .client-intro {
+      color: #3c3c3c;
+      font-size: 1.875rem;
+      margin-bottom: 1rem;
+    }
+
+    .client-status {
+      font-size: 1.375rem;
+      a {
+        color: $white;
+        &:hover, &:active, &:visited {
+          text-decoration: none;
+          border-bottom: 1px solid $white;
+        }
+      }
+    }
+
+    .tag {
+      color: #fff;
+      border: 1px solid #fff;
+      padding: 0.25rem 0.5rem;
+      font-size: 0.875rem;
+      margin-right: 1px;
+      &:hover {
+        background-color: rgba(255,255,255,0.2);
+      }
+    }
   }
 
-  .tag {
-    color: #fff;
-    border: 1px solid #fff;
-    padding: 2px 4px;
-    font-size: 14.88px;
-    font-weight: 300;
-    margin-right: 1px;
+  .carousel-indicators li {
+    border-radius: 1rem;
+    width: 1rem;
+    height: 1rem;
   }
 
 }
